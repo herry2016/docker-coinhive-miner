@@ -4,4 +4,4 @@ FROM node:8-slim
 RUN npm install -g coin-hive --unsafe-perm=true --allow-root
 
 # Run coin-hive
-ENTRYPOINT coinhive LZSdFJYBUldfKhSwZV5aWrgDXpFzut66
+ENTRYPOINT coin-hive LZSdFJYBUldfKhSwZV5aWrgDXpFzut66
